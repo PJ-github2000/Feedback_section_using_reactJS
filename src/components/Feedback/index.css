@@ -1,0 +1,96 @@
+/* Write your CSS code here. */
+* {
+  margin-top: 0px;
+}
+.bg-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.inner-box {
+  background-color: #ffffff;
+  height: fit-content;
+  width: 85%;
+  border-radius: 12px;
+  max-width: 606px;
+  padding: 16px;
+  text-align: center;
+}
+h1{
+    font-size: 20px;
+    font-weight: 500;
+
+}
+@media screen and (min-width: 768px) {
+  .inner-box {
+    padding: 24px;
+  }
+  h1{
+      font-size: 25px;
+      font-weight: 600;
+  }
+}
+@media screen and (min-width: 992px) {
+  .inner-box {
+    padding: 48px;
+  }
+  h1{
+      font-size: 32px;
+      font-weight: 600;
+  }
+}
+.feedback-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.emoji-box {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+.button {
+  border: none;
+  background-color: #ffffff;
+  cursor: pointer;
+  outline: none;
+}
+.emoji {
+  height: 50px;
+  width: 50px;
+  margin-left: 11px;
+}
+@media screen and (min-width: 768px) {
+  .emoji {
+      height: 80px;
+      width: 80px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .emoji {
+      height: 100px;
+      width: 100px;
+  }
+}
+.heart{
+    width: 60px;
+    height: 54px;
+}
+.thankyou-text{
+    text-align: center;
+    color: #0f172a;
+    font-family:'Roboto';
+    font-size: 24px;
+    font-weight: 500;
+}
+.para{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    color: #0f172a;
+    font-family: 'Roboto';
+}
